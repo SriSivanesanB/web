@@ -7,8 +7,8 @@ pInput = pField.querySelector("input");
 
 form.onsubmit = (e)=>{
   e.preventDefault(); //preventing from form submitting
-  //if email and password is blank then add shake class in it else call specified function
   (eInput.value == "") ? eField.classList.add("shake", "error") : checkEmail();
+  (pInput.value == "") ? pField.classList.add("shake", "error") : checkPass();
   (pInput.value == "") ? pField.classList.add("shake", "error") : checkPass();
 
 
