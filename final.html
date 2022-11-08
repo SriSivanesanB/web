@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .bg {
+    background-image: url("background.jpg");
+    height: 100%; 
+    background-position: center;
+    background-size: cover;
+  }
+  .centertop {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 70%;
+  }
+  .button2 {
+    background-color: #cc9ddb5b;
+    border: 2px solid #ffffff00;
+    width:4%;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:46.5%;
+    margin-right: auto;
+    margin-top:15%;
+    cursor: pointer;
+  }
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button2:hover {
+    background-color: #db9dd8;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+    color: rgb(0, 0, 0);
+  }
+</style>
+</head>
+<body>
+<div class="bg">
+    <div class="center">
+        <img src="loggedin.gif" class="centertop"/>
+        <img src="thankyounote.png" class="center"/>
+        <a href="index.html" class="button2"><img src="homebuttonsmall.png" alt="home"></a>
+    </div>
+</div>
+</body>
+</html>
